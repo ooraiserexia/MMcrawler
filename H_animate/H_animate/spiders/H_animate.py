@@ -124,17 +124,7 @@ class H_animateSpider(scrapy.Spider):
 			#	if not url.startswith('http://m.'):
 			#		yield scrapy.Request(url, callback=self.parse)
 			#print url
-			if url:
-				#print "1111111111111111111111111111"
-				if not url.startswith('http://m.'):
-					#print "2222222222222222222222222"
-					print url
-					print self.hasNumber(url)
-					#print "ZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
-					if self.hasNumber(url):
-						if not self.has2Number(url):
-							if not self.startWithmm(url):
-								print "OK"
+
 
 			if url:
 				print url
